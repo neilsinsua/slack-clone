@@ -1,0 +1,25 @@
+body {
+    --primary-color: #f48fb1;
+    --primary-dark: #bf5f82;
+    --primary-light: #ffc1e3;
+
+    --secondary-color: #4caf50;
+    --secondary-dark: #087f23;
+    --secondary-light: #80e27e;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.input:focus::placeholder {
+    color: transparent;
+}
+
+.app__body {
+    display: flex;
+    height: 100vh;
+}

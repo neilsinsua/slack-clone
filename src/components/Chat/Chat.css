@@ -1,0 +1,42 @@
+.chat {
+    overflow-y: scroll;
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+.chat__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    height: 5vh;
+}
+
+.channel__name {
+    display: flex;
+    align-items: center;
+}
+
+.channel__name > .star {
+    font-size: 1.3rem;
+}
+
+.chat__header__left > h4 > strong {
+    font-size: 1.2rem;
+    margin-right: 4px;
+}
+
+.chat__header__right {
+    display: flex;
+    align-items: center;
+}
+
+.chat__header__right > div {
+    font-size: 1rem;
+}
+
+.chat__header__right > .info {
+    font-size: 1rem;
+    margin-right: 0.3rem;
+}

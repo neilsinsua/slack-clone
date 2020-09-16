@@ -1,0 +1,30 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 6px;
+    font-size: 15px;
+}
+
+.sidebarOption:hover {
+    background-color: var(--primary-dark);
+}
+
+.icon__container > .icon {
+    font-size: 18px;
+}
+
+.icon__container {
+    margin-left: 8px;
+    text-align: center;
+    width: 10%;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.title__container {
+    margin-left: 8px;
+    width: 100%;
+    text-align: left;
+}
